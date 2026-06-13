@@ -1,0 +1,21 @@
+1. Errores encontrados:
+El método CalcularCoso no tiene llaves.
+Está usando "Noches" dentro de un método static, lo cual da error.
+La variable "precioPoNoche" está mal escrita.
+El constructor no inicializa todos los atributos.
+
+Solución:
+Corregir el método, quitar static y completar el constructor.
+Diferencia entre struct y class:
+Si fuera class, se manejaría por referencia y sería más fácil de modificar y ampliar.
+Si es struct, se copia por valor.
+En este caso sería mejor class porque una reserva puede tener más funciones.
+
+3. Modificadores de acceso:
+No son los mejores porque todo está en public.
+Es mejor usar private y propiedades para proteger los datos.
+
+4. Estructura para futuras versiones:
+No está muy bien preparada.
+Le faltan validaciones y mejor organización.
+Se puede mejorar usando class, propiedades y más métodos.
